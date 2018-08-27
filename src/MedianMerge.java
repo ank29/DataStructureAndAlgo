@@ -24,6 +24,7 @@ public class MedianMerge {
             else return getMedian(ar1, start1, start1 + (n / 2), ar2, start2 + (n / 2), end2);
 
         }
+
     }
     static double median(int[] arr,int j,int n){
         int len = n-j+1;
@@ -35,8 +36,11 @@ public class MedianMerge {
     public static void main(String args[]){
         int arr[] = {1, 2,3,4,5,6};
         int arr2[] = {7,8,9,10,11,12};
-        int n = arr.length;
         double median = findMedianMerge(arr,arr2);
       System.out.println("median is "+median);
     }
 }
+
+
+
+
